@@ -1,6 +1,6 @@
 katz_deli = []
 
-def take_a_number(array,name) # this was the one I figured out
+def take_a_number(array, name) # this was the one I figured out
   if array.length >= 1
     nuarray = []
     counter = 1 
