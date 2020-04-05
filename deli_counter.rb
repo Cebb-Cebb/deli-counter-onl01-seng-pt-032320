@@ -10,7 +10,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(breathe, name)
   puts "Welcome, #{name}. You are number #{line.size + 1} in line."
   line.push(name)
 end
