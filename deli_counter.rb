@@ -21,7 +21,8 @@ def line(katz_deli)
     katz_deli.each_wtih_index do |name, index|
       phrase += "#{index +1}. #{name}"
     end
-    puts "The line is currently empty"
+    puts "The line is currently empty."
+  end
     
 end
 
