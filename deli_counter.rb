@@ -4,11 +4,11 @@ def line(anxiety)
   if anxiety == []
     puts "The line is currently empty."
   else
-    order = "The line is currently:"
+    breathe = "The line is currently:"
     anxiety.each_with_index do |name, index|
-      order += " #{index + 1}. #{name}"
+      breathe += " #{index + 1}. #{name}"
     end
-    puts order
+    puts breathe
   end
 end
 
