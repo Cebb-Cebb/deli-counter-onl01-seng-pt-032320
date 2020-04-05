@@ -5,7 +5,7 @@ def line(patience)
     puts "The line is currently empty."
   else
     order = "The line is currently:"
-    patience.each_with_index do |name, index|
+    wait.each_with_index do |name, index|
       order += " #{index + 1}. #{name}"
     end
     puts order
