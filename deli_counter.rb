@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line(wait)
+def line(patience)
   if wait == []
     puts "The line is currently empty."
   else
