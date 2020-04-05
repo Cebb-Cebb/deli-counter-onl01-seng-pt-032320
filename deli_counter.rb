@@ -23,6 +23,7 @@ def line(katz_deli)
     end
     puts phrase
   else 
+    puts 
   end
     
 end
