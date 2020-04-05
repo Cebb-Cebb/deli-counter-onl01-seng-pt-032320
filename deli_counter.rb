@@ -18,5 +18,6 @@ katz_deli = []
 def line(katz_deli)
   phrase = "The line is currently:"
   if katz_deli.length > 0 
+    katz_deli.each_wtih_index do ||
 end
 
