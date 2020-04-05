@@ -16,5 +16,7 @@
 
 katz_deli = []
 def line(katz_deli)
-  phrase = "The line is currently: "
+  phrase = "The line is currently:"
+  if line > 0 
+end
 
