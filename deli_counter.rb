@@ -3,7 +3,7 @@ def line(anxiety)
     puts "The line is currently empty."
   else
     breathe = "The line is currently:"
-    anxiety.each_with_index do |name, index|
+    katz_deli.each_with_index do |name, index|
       breathe += " #{index + 1}. #{name}"
     end
     puts breathe
