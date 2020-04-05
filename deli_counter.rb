@@ -22,6 +22,7 @@ def line(katz_deli)
       phrase += "#{index+1}.#{name}"
     end
     puts phrase
+  else 
   end
     
 end
