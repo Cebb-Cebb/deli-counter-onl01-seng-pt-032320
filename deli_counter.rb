@@ -8,7 +8,7 @@ def line(queque)
     puts "The line is currently empty."
   else
     phrase = "The line is currently:"
-    line.each_with_index do |name, index|
+    queque.each_with_index do |name, index|
       phrase += " #{index + 1}. #{name}"
     end
     puts phrase
