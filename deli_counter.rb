@@ -15,5 +15,6 @@
 # end
 
 katz_deli = []
-def line_katz
+def line(katz_deli)
+  
 
