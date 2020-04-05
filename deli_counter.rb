@@ -16,7 +16,7 @@ def take_a_number(line, name)
 end
 
 def now_serving(line)
-  if line != []
+  until line != []
     puts "Currently serving #{line.shift}."
   else
     puts "There is nobody waiting to be served!"
