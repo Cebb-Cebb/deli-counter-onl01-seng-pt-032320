@@ -1,5 +1,3 @@
-
-
 def line(anxiety)
   if anxiety == []
     puts "The line is currently empty."
