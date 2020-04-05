@@ -23,7 +23,7 @@ def line(katz_deli)
     end
     puts phrase
   else 
-    puts 
+    puts "The line is currently empty"
   end
     
 end
