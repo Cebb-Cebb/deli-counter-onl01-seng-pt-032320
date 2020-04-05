@@ -19,6 +19,6 @@ def line(katz_deli)
   phrase = "The line is currently:"
   if katz_deli.length > 0 
     katz_deli.each_wtih_index do |name, index|
-      phrase += 1 
+      phrase += "#{index +1} "
 end
 
