@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(anxiety)
-  if wait == []
+  if anxiety == []
     puts "The line is currently empty."
   else
     order = "The line is currently:"
