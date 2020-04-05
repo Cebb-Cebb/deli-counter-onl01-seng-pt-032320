@@ -7,9 +7,9 @@ def line(wait)
   if wait == []
     puts "The line is currently empty."
   else
-    phrase = "The line is currently:"
+    sentence = "The line is currently:"
     wait.each_with_index do |name, index|
-      phrase += " #{index + 1}. #{name}"
+      sentence += " #{index + 1}. #{name}"
     end
     puts sentence
   end
