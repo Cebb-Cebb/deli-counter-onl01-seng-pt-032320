@@ -1,9 +1,9 @@
 def line(anxiety)
-  if katz_deli == []
+  if anxiety == []
     puts "The line is currently empty."
   else
     breathe = "The line is currently:"
-    katz_deli.each_with_index do |name, index|
+    anxiety.each_with_index do |name, index|
       breathe += " #{index + 1}. #{name}"
     end
     puts breathe
