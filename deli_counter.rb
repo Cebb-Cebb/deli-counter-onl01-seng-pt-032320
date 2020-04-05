@@ -15,10 +15,10 @@ def take_a_number(line, name)
   line.push(name)
 end
 
-# def now_serving(line)
-#   if line != []
-#     puts "Currently serving #{line.shift}."
-#   else
-#     puts "There is nobody waiting to be served!"
-#   end
-# end
+def now_serving(line)
+  if line != []
+    puts "Currently serving #{line.shift}."
+  else
+    puts "There is nobody waiting to be served!"
+  end
+end
