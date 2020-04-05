@@ -1,4 +1,4 @@
-katz_deli = []
+
 
 def line(anxiety)
   if anxiety == []
