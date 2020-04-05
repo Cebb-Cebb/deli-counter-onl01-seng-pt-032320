@@ -1,5 +1,5 @@
 def line(anxiety)
-  if anxiety == []
+  if katz_deli = []
     puts "The line is currently empty."
   else
     breathe = "The line is currently:"
