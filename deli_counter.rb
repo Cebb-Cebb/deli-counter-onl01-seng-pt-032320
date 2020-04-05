@@ -20,5 +20,7 @@ def line(katz_deli)
   if katz_deli.length > 0 
     katz_deli.each_wtih_index do |name, index|
       phrase += "#{index +1}. #{name}"
+    end
+    puts 
 end
 
